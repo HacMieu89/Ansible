@@ -1,0 +1,11 @@
+---
+- name: Set Ip Loobpack
+  hosts: all
+  gather_facts: no
+
+  tasks:
+    - name: check state active
+      ios_vlan:
+        vlan_id: 100
+        name: test-vlan
+        state: active
