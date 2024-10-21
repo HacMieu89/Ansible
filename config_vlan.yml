@@ -1,6 +1,6 @@
 ---
 - name: Set Ip Loobpack
-  hosts: all
+  hosts: S_20_Chien
   gather_facts: no
 
   tasks:
